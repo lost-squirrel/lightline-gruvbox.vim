@@ -13,21 +13,21 @@ if !exists('g:gruvbox_contrast_light')
 endif
 
 if s:is_dark
-	let s:mono0   = '#282828'
+	let s:mono0   = '#1d2021'
 	let s:c_mono0 = 235
 	if g:gruvbox_contrast_dark == 'soft'
-		let s:mono0 = '#32302f'
+		let s:mono0 = '#1d2021'
 		let s:c_mono0 = 236
 	elseif g:gruvbox_contrast_dark == 'hard'
 		let s:mono0 = '#1d2021'
 		let s:c_mono0 = 234
 	endif
 
-	let s:mono1   = '#3c3836'
+	let s:mono1   = '#282828'
 	let s:mono2   = '#504945'
-	let s:mono3   = '#665c54'
-	let s:mono4   = '#7c6f64'
-	let s:mono5   = '#928374'
+	let s:mono3   = '#3c3836'
+	let s:mono4   = '#665c54'
+	let s:mono5   = '#ebdbb2'
 	let s:c_mono1 = 237
 	let s:c_mono2 = 239
 	let s:c_mono3 = 241
